@@ -1,0 +1,127 @@
+.main nav ul{
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff9900;
+}
+.main nav ul a{
+    width: 55px;
+    line-height: 30px;
+    margin: 7px;
+    color: white;
+}
+.sidenav .allnav{
+    width: 186px;
+    height: 522px;
+    text-align: center;
+    border: 2px solid #ff5000;
+}
+.sidenav .allnav a{
+    display: inline-block;
+    width: 184px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    transition: 0.3s all;
+}
+.sidenav .allnav a:hover{
+    background-color: #ffd493ce;
+    color: #ff5000;
+}
+.b520{
+    margin: 7px;
+    width: 520px;
+    height: 280px;
+}
+.b160{
+    margin: 7px 0px;
+    width: 160px;
+    height: 280px;
+}
+.b160 span{
+    display: inline-block;
+    margin-top: 3px;
+    color: #666;
+}
+.cat{
+    position: relative;
+}
+.cat span{
+    color: #666;
+    margin: 2px;
+    left: 130px;
+    position: absolute;
+}
+.line{
+    width: 520px;
+    height: 3px;
+}
+.line span{
+    display: inline-block;
+    width: 104px;
+    height: 3.5px;
+    background-color: red;
+    position: relative;
+    top: -16px;
+}
+.rbox{
+    text-align: center;
+    margin: 7px;
+    width: 290px;
+    height: 522px;
+    /* border: 1px solid black; */
+}
+.boxhi{
+    background: url(../image/bghi.png) no-repeat;
+    background-size:  290px 137px;
+    width: 290px;
+    height: 137px;
+}
+.boxhi img{
+    border-radius: 50%;
+    margin: 3px;
+}
+.loginhi{
+    width: 290px;
+    line-height: 30px;
+}
+.boxhi span{
+    color: #ff5000;
+    background-color: #ffcd82e3;
+    border-radius: 10px;
+    margin: 0 5px;
+    padding: 1px 5px;
+}
+.loginhi{
+    margin: 0 auto;
+}
+.loginhi li a{
+    width: 88px;
+    margin: 0 4px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.tnav{
+    display: flex;
+    justify-content: space-around;
+    width: 290px;
+    height: 24px;
+    background-color: white;
+}
+.tnav li{
+    float: left;
+    font-weight: bold;
+}

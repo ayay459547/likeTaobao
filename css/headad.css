@@ -1,0 +1,57 @@
+.adbg{
+    background-image: url(../image/TB1B9fjZpY7gK0jSZKzXXaikpXa-1920-100.png);
+}
+.adbg .leayer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.adbg .leayer img{
+    float: left;
+}
+.adbg .leayer div{
+    margin-top: 5px;
+    width: 209px;
+    height: 75px;
+    float: left;
+    margin: 3px;
+    /* border: 2px solid black; */
+    position: relative;
+}
+.adbg .leayer div h4{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+.adbg .leayer div p{
+    position: absolute;
+    top: 43px;
+    left: 20px;
+    color: white;
+}
+.adbg .leayer div img{
+    width: 52px;
+    height: 52px;
+    left: 142px;
+    top: 12px;
+    border-radius: 10px;
+    position: absolute;
+}
+.box1{
+    background: url(../image/box1.png) no-repeat;
+}
+.box2{
+    background: url(../image/box2.png) no-repeat;
+}
+.box3{
+    background: url(../image/box3.png) no-repeat;
+}
+.box4{
+    background: url(../image/box4.png) no-repeat;
+}
+.box5{
+    background: url(../image/box5.png) no-repeat;
+}
